@@ -15,8 +15,8 @@ import os
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
-print("Secret Key:", app.config['SECRET_KEY'])  # Debugging line
+app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
+#print("Secret Key:", app.config['SECRET_KEY'])  # Debugging line
 
 ckeditor = CKEditor(app)
 Bootstrap5(app)
