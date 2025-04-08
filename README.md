@@ -32,7 +32,7 @@ This app allows users to register, log in, create, edit, delete, and comment on 
 
 ## 🖥️ Setup Instructions
 
-### 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/blog-flask-app.git
