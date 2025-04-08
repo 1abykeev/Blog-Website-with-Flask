@@ -31,15 +31,13 @@ This app allows users to register, log in, create, edit, delete, and comment on 
 ---
 
 ## 🖥️ Setup Instructions
-
-## 1. Clone the repository
-
 ```bash
+## 1. Clone the repository
 git clone https://github.com/your-username/blog-flask-app.git
 cd blog-flask-app
 
-## 2 Create and activate a virtual environment
 
+## 2 Create and activate a virtual environment
 # Create virtual environment
 python -m venv venv
 
@@ -50,18 +48,16 @@ venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
 
-## 3 Install dependencies
 
+## 3 Install dependencies
 ``` pip install -r requirements.txt
 
 
 ## 4. Set environment variables
-
 # Create a .env file in the root directory and add:
-
 FLASK_KEY=your_secret_key
 DB_URI=sqlite:///posts.db
 
-## 5. Run the application
 
+## 5. Run the application
 ``` python -m flask --app main.py --debug run
